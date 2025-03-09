@@ -28,17 +28,17 @@ body {
 
 .bg1 {
   background-image: linear-gradient(to right, #000000e5, #0000006c),
-    url("./hero.png") !important;
+    url("/hero.jpg") !important;
 }
 
 .bg2 {
   background-image: linear-gradient(to right, #000000e5, #0000006c),
-    url("./hero-2.jpg") !important;
+    url("/hero-2.jpg") !important;
 }
 
 .bg3 {
   background-image: linear-gradient(to right, #000000e5, #0000006c),
-    url("./hero-3.jpg") !important;
+    url("/hero-3.jpg") !important;
 }
 
 .btn-outline {

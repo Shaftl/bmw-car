@@ -3,7 +3,7 @@
   padding: 10rem 0;
   background-color: #272425;
   background-image: linear-gradient(to right, #000000d3, #00000053),
-    url("./offers.png");
+    url("/offers.jpg");
   background-size: cover;
   background-position: right;
   color: #fff;
