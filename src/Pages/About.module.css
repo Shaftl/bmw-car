@@ -1,0 +1,42 @@
+.about {
+  width: 100%;
+  padding: 10rem 0;
+  background-color: #181818;
+}
+
+.aboutContainer {
+  height: 100%;
+  padding: 0 10rem;
+  width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  color: #fff;
+}
+
+.aboutImg {
+  width: 60rem;
+}
+
+.aboutImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6rem;
+}
+
+.aboutText {
+  width: 70rem;
+}
+
+.aboutText h3 {
+  font-size: 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.aboutText p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #eae7dc;
+}

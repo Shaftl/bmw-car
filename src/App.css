@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: "#e9ed38";
+  --shade-1: "#1e1b1c";
+  --shade-2: "#272425";
+  --tent-1: "#ffffff";
+  --tent-2: "#eae7dc";
+  --tent-3: "#999697";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Urbanist";
+  font-weight: 400;
+}
+
+.bg1 {
+  background-image: linear-gradient(to right, #000000e5, #0000006c),
+    url("./hero.png") !important;
+}
+
+.bg2 {
+  background-image: linear-gradient(to right, #000000e5, #0000006c),
+    url("./hero-2.jpg") !important;
+}
+
+.bg3 {
+  background-image: linear-gradient(to right, #000000e5, #0000006c),
+    url("./hero-3.jpg") !important;
+}
+
+.btn-outline {
+  background-color: #e9ed38;
+  font-size: 1.6rem;
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1.2rem 3.4rem;
+  margin-top: 3rem;
+  font-weight: 600;
+  font-family: inherit;
+  border-radius: 10rem;
+  border: 1px solid #e9ed38;
+  transition: all 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: transparent;
+  border: 1px solid #8a8a8a;
+  color: #fff;
+}

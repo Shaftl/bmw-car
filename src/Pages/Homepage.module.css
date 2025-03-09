@@ -1,0 +1,151 @@
+.homepage {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.heroContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.heroBox {
+  width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.heroText {
+  /* width: 50%; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  padding: 0 10rem;
+}
+
+.headinPrimary {
+  font-size: 6rem;
+  color: #ffffff;
+  line-height: 1.13;
+  margin-bottom: 1.2rem;
+}
+
+.headingTertairy {
+  font-size: 3rem;
+  color: #b3b3b3;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.option {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  /* background-color: #e9ed38; */
+  /* color: #222; */
+  background-color: transparent;
+  border: 1px solid #999697;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #999697;
+}
+
+.optionActive {
+  background-color: #ffffff;
+  font-weight: 600;
+  color: #222 !important;
+}
+
+.carInfo {
+  position: absolute;
+  top: 50%;
+  right: 4rem;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.6rem;
+  z-index: 3;
+}
+
+.info {
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  font-size: 0.5rem !important;
+  border-radius: 1.4rem;
+  border: none;
+  outline: none;
+  background-color: #e9ed38;
+  position: relative;
+}
+
+.info::after {
+  content: "";
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 50%;
+  background-color: #2222226d;
+  backdrop-filter: blur(10px);
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.info:hover:after {
+  left: 0;
+}
+
+.info:hover .hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover {
+  position: absolute;
+  color: #fff;
+  background-color: #2222226d;
+  backdrop-filter: blur(10px);
+  left: -5rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 160%;
+  height: 160%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  font-family: "Urbanist" !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  transition-delay: 0.2s;
+}
+
+.hover h4 {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.hover p {
+  font-size: 0.8rem;
+}

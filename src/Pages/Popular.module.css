@@ -1,0 +1,89 @@
+.popular {
+  width: 100%;
+  padding: 10rem 0;
+  background-color: #eae7dc;
+}
+
+.popularContainer {
+  height: 100%;
+  width: 120rem;
+  padding: 0 10rem;
+  margin: 0 auto;
+  color: #272425;
+}
+
+.popularContainer h3 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.popularBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  gap: 2.4rem;
+  padding: 0 3rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.box:last-child {
+  margin-top: 10rem;
+}
+
+.popularCard {
+  width: 50rem;
+  height: 36rem;
+  background-color: transparent;
+  /* background-color: #e9ed38; */
+  border: 1px solid #bbbbbb;
+  border-radius: 5rem;
+  padding: 5rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.popularCard:hover {
+  background-color: #e9ed38;
+}
+
+.popularCard:hover img {
+  transform: scale(1.1);
+}
+
+.popularCard img {
+  width: 100%;
+  margin-top: 2rem;
+  transition: all 0.3s;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 1.4rem;
+}
+
+.popularCard p {
+  font-size: 1.4rem;
+  width: 40rem;
+  color: #474344;
+}
+
+.price {
+  font-size: 1.8rem;
+  background-color: #272425;
+  display: inline-block;
+  color: #eae7dc;
+  padding: 1rem 2rem;
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  border-radius: 2rem;
+}
