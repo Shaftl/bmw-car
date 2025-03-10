@@ -62,3 +62,7 @@ body {
   border: 1px solid #8a8a8a;
   color: #fff;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

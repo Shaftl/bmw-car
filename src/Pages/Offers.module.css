@@ -11,9 +11,11 @@
 
 .offersContainer {
   height: 100%;
-  width: 120rem;
+  max-width: 120rem;
   padding: 0 10rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .offersText h3 {
@@ -25,5 +27,26 @@
   font-size: 1.6rem;
   line-height: 1.4;
   color: #eae7dc;
-  width: 60rem;
+  max-width: 60rem;
+}
+
+@media (max-width: 800px) {
+  .offersContainer {
+    padding: 0 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offersText h3 {
+    font-size: 2.4rem;
+  }
+
+  .offersText p {
+    font-size: 1.3rem;
+  }
+
+  .offersText button {
+    font-size: 1.4rem;
+  }
 }

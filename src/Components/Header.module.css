@@ -59,3 +59,15 @@
   font-weight: 700;
   color: #222 !important;
 }
+
+@media (max-width: 800px) {
+  .header {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    transform: translate(-50%, -50%) scale(0.8) !important;
+  }
+}

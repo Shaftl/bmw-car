@@ -6,7 +6,7 @@
 
 .popularContainer {
   height: 100%;
-  width: 120rem;
+  max-width: 120rem;
   padding: 0 10rem;
   margin: 0 auto;
   color: #272425;
@@ -18,7 +18,7 @@
 }
 
 .popularBox {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +72,7 @@
 
 .popularCard p {
   font-size: 1.4rem;
-  width: 40rem;
+  max-width: 40rem;
   color: #474344;
 }
 
@@ -86,4 +86,57 @@
   bottom: 3rem;
   right: 3rem;
   border-radius: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .popularContainer h3 {
+    font-size: 3.2rem;
+  }
+
+  .popularContainer {
+    padding: 0 5rem;
+  }
+
+  .popularBox {
+    transform: scale(0.95);
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .popularContainer {
+    padding: 0 5rem;
+  }
+
+  .popularBox {
+    transform: scale(0.8);
+    margin-top: -8rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .popularContainer {
+    text-align: center;
+  }
+
+  .popularBox {
+    flex-direction: column;
+    transform: scale(1);
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .popular {
+    padding-bottom: 0rem;
+  }
+
+  .popularContainer h3 {
+    font-size: 2.8rem;
+  }
+
+  .popularBox {
+    transform: scale(0.8);
+    margin-top: -18rem;
+  }
 }
